@@ -1,0 +1,17 @@
+/* This is a css comment */
+
+/* Select by element TYPE */
+p {
+    color:rgb(0, 255, 153);    
+}
+
+/* Select by class name */
+
+.border {
+    border: 2px solid black;
+}
+
+/* Select by ID name */
+#kaak {
+    background-color: aqua;
+}
