@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 /* This is a css comment */
 
 /* Select by element TYPE */
@@ -18,12 +20,27 @@ p {
 /* Select by ID name */
 #kaak {
     background-color: aqua;
+    font-family: "Nunito", sans-serif;
 }
 
 #wow {
     background-color: #FFFF00;
+    font-family: "Nunito", sans-serif;
 }
 
 h1{ 
     text-align: center;
+    font-family: "Abril Fatface", serif;
+}
+
+/* Box Model: margin, border, padding, content */
+img {
+    border-width: 2px;
+    border-style: groove;
+}
+
+hr {
+    border-width: 5px;
+    border-style: dotted;
+    border-color: purple;
 }
